@@ -1,0 +1,17 @@
+name: th_koeln_SiEn
+
+channels:
+  - conda-forge
+  - bioconda
+  - anaconda
+  - default
+
+dependencies:
+  - coincbc=2.10.5              # Cbc (Coin-or branch and cut) mixed integer programming solver written in C++.
+  - glpk=4.65                   # GNU Linear Programming Kit. Solver.
+#  - jupyterlab=3.0.14          # Jupyter Lab, Notebook and Architecture.
+  - matplotlib=3.4.1            # Publication quality figures.
+  - pandas=1.3.4               # High-performance, easy-to-use data structures and data analysis tools.
+  - pypsa=0.17.1               # Python for Power System Analysis. Framework.
+  - python=3.9.2                # Python Programming Language Version 3.7
+#  - tabulate=0.8.9              # Pretty-print tabular data in Python, a library and a command-line utility.
